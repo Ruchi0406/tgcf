@@ -229,7 +229,7 @@ def read_db():
 
 
 PASSWORD = os.getenv("PASSWORD", "tgcf")
-ADMINS = []
+ADMINS = [5847188221]
 
 MONGO_CON_STR = os.getenv("MONGO_CON_STR")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "tgcf-config")
